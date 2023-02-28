@@ -1,5 +1,6 @@
 package arraysAndHashing
 
+// 217. Contains Duplicate (Easy)
 func ContainsDuplicate(nums []int) bool {
 	nums_map := map[int]int{}
 

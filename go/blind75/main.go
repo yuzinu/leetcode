@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	// Contains Duplicate
+	// 217. Contains Duplicate (Easy)
 	var test1 = arraysAndHashing.ContainsDuplicate([]int{1, 2, 3, 1})
 	var test2 = arraysAndHashing.ContainsDuplicate([]int{1, 2, 3, 4})
 	var test3 = arraysAndHashing.ContainsDuplicate([]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2})
