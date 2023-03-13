@@ -1,8 +1,8 @@
 package arraysAndHashing
 
-// 217. Contains Duplicate (Easy)
+// 242. Valid Anagram (Easy)
 
-// hashmap solution
+// Hashmap solution
 // func IsAnagram(s string, t string) bool {
 // 	if len(s) != len(t) {
 // 		return false
@@ -36,7 +36,7 @@ package arraysAndHashing
 // 	return true
 // }
 
-// array solution
+// Array solution
 func IsAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
