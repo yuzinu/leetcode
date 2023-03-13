@@ -2,6 +2,10 @@ package arraysAndHashing
 
 // 217. Contains Duplicate (Easy)
 func IsAnagram(s string, t string) bool {
+	if len(s) != len(t) {
+		return false
+	}
+
 	s_map := map[rune]int{}
 	t_map := map[rune]int{}
 
