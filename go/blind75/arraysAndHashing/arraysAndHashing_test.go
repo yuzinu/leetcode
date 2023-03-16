@@ -15,9 +15,9 @@ var containsDuplicates = []containsDuplicate{
 }
 
 func TestContainsDuplicate(t *testing.T) {
-	for _, test := range containsDuplicates {
+	for i, test := range containsDuplicates {
 		if output := ContainsDuplicate(test.arg1); output != test.expected {
-			t.Errorf("Output %t not equal to expected %t", output, test.expected)
+			t.Errorf("Output %t not equal to expected %t for test %d", output, test.expected, i+1)
 		}
 	}
 }
@@ -35,9 +35,9 @@ var isAnagrams = []isAnagram{
 }
 
 func TestIsAnagram(t *testing.T) {
-	for _, test := range isAnagrams {
+	for i, test := range isAnagrams {
 		if output := IsAnagram(test.arg1, test.arg2); output != test.expected {
-			t.Errorf("Output %t not equal to expected %t", output, test.expected)
+			t.Errorf("Output %t not equal to expected %t for test %d", output, test.expected, i+1)
 		}
 	}
 }
