@@ -1,11 +1,5 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/yuzinu/leetcode/go/blind75/arraysAndHashing"
-)
-
 func main() {
 	// 217. Contains Duplicate (Easy)
 	// var containsDuplicateTest1 = arraysAndHashing.ContainsDuplicate([]int{1, 2, 3, 1})
@@ -38,10 +32,10 @@ func main() {
 	// fmt.Println(groupAnagramsTest3)
 
 	// 347. Top K Frequent Elements (Medium)
-	var topKFrequentTest1 = arraysAndHashing.TopKFrequent([]int{1, 1, 1, 2, 2, 3}, 2)
-	var topKFrequentTest2 = arraysAndHashing.TopKFrequent([]int{1}, 1)
-	var topKFrequentTest3 = arraysAndHashing.TopKFrequent([]int{200, 200, 0, 1, 1, 3, 3, 3, 200}, 3)
-	fmt.Println(topKFrequentTest1)
-	fmt.Println(topKFrequentTest2)
-	fmt.Println(topKFrequentTest3)
+	// var topKFrequentTest1 = arraysAndHashing.TopKFrequent([]int{1, 1, 1, 2, 2, 3}, 2)
+	// var topKFrequentTest2 = arraysAndHashing.TopKFrequent([]int{1}, 1)
+	// var topKFrequentTest3 = arraysAndHashing.TopKFrequent([]int{200, 200, 0, 1, 1, 3, 3, 3, 200}, 3)
+	// fmt.Println(topKFrequentTest1)
+	// fmt.Println(topKFrequentTest2)
+	// fmt.Println(topKFrequentTest3)
 }
