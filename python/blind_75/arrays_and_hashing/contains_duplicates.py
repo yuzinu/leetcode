@@ -12,7 +12,7 @@ class Solution:
         hashset.add(n)
     return False
 
-class TestSum(unittest.TestCase):
+class Test(unittest.TestCase):
   def test_1(self):
     self.assertEqual(Solution.contains_duplicate(self, [1,2,3,1]), True, "Should be True")
 

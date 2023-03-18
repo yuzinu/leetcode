@@ -13,7 +13,7 @@ class Solution:
       countT[t[i]] = 1 + countT.get(t[i], 0)
     return countS == countT
 
-class TestSum(unittest.TestCase):
+class Test(unittest.TestCase):
   def test_1(self):
     self.assertEqual(Solution.is_anagram(self, "anagram", "nagaram"), True, "Should be True")
 
