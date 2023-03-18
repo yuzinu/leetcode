@@ -1,4 +1,3 @@
-from typing import List
 import unittest
 
 # 242. Valid Anagram (Easy)
