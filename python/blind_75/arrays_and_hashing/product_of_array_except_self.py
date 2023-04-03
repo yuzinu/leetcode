@@ -1,7 +1,7 @@
 from typing import List
 import unittest
 
-# 347. Top K Frequent Elements (Medium)
+# 238. Product of Array Except Self (Medium)
 class Solution:
   def product_except_self(self, nums: List[int]) -> List[int]:
     res = [1] * (len(nums))
